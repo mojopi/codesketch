@@ -1,0 +1,43 @@
+/* w
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+h1{font-family: 'Eater', cursive;
+}
+
+body{
+   margin:0;
+   background-color:magenta;
+}
+
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+   .smallphoto {
+      width: 48%;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
