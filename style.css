@@ -1,0 +1,65 @@
+/* w
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+h1{font-family: 'Eater', cursive;
+}
+
+body{
+   margin:0;
+   background-color:magenta;
+}
+ .dino{
+      background-image: url(dino.png);
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: sticky;
+      margin-top: 100px;
+      margin-left: 900px;
+   }
+
+    .tongue{
+      background-image: url(rollingstones.png);
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: sticky; 
+      margin-top: 50px;
+      margin-left: 300px;
+   }
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+   .smallphoto {
+      width: 48%;
+   }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
